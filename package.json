@@ -1,0 +1,22 @@
+{
+  "name": "Gulp",
+  "version": "1.0.2",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "del": "^2.2.2",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "del": "^2.2.2"
+  }
+}
