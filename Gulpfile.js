@@ -26,8 +26,8 @@ var JSFiles = [
 // ve oluşturulan CSS dosyasını CSS klasörüne kaydeder.
 gulp.task('css', function () {
     return gulp.src(sassFiles)
-        .pipe(sass({ style: 'sıkıştırılmış' }))
-        .pipe(autoprefix('son 15 version'))
+        .pipe(sass({ style: 'compressed' }))
+        .pipe(autoprefix('last 15 version'))
         .pipe(gulp.dest(CSSDir))
         .pipe(refresh());
 });
